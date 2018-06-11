@@ -1,8 +1,8 @@
 class QasmSimulatorCpp < Formula
   desc "C++ quantum circuit simulator with realistic noise"
   homepage "https://qiskit.org/"
-  url "https://github.com/QISKit/qiskit-core/archive/0.5.3.tar.gz"
-  sha256 "48798688c409742e6259ee721efabfb60ffe55c84c0557885dcd9d7d67602827"
+  url "https://github.com/QISKit/qiskit-core/archive/0.5.4.tar.gz"
+  sha256 "dd8e4e50cc508f25dbac37a8ebdaa5693ef88e719928bcb49f44116c9e0e5438"
 
   option "with-openmp", "Enable OpenMP multithreading"
 
