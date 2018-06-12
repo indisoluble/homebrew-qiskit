@@ -15,7 +15,7 @@ class QasmSimulatorCpp < Formula
   patch :DATA
 
   def install
-    if build.with? "gcc"
+    if build.with? "openmp"
       args = ["-DCMAKE_CXX_COMPILER=g++-7"]
     else
       args = ["-DSTATIC_LINKING=False"]
