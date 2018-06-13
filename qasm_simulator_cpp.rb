@@ -7,7 +7,7 @@ class QasmSimulatorCpp < Formula
   option "with-openmp", "Enable OpenMP multithreading"
 
   depends_on "cmake" => :build
-  depends_on "gcc" if build.with? "openmp"
+  depends_on "gcc" => :build if build.with? "openmp"
 
   fails_with :clang if build.with? "openmp"
 
